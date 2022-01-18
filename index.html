@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home rescue GBV </title>
+    <link rel="stylesheet" href="CSS/hrstyles.css">
+</head>
+<body>
+<nav>
+    <ul class="styleul">
+        <li><a href="#home">Home</a> </li>
+        <li><a href="#about">About</a> </li>
+        <li><a href="#gallery">Gallery</a> </li>
+        <li><a href="blog.html">Blog</a> </li>
+        <li><a href="#contact">Contact</a> </li>
+    </ul>
+</nav>
+<section id="home">
+    <div class="homepage">
+        <div class="hrstext">
+            <h1>We help! We rescue!</h1>
+            <h3>End violence now!</h3>
+            <button class="buttonhr">Call immedietly!</button>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <h1 class="center">About Page</h1>
+    <div class="flexbox">
+        <div>
+            <h3 class="center">Our values</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam asperiores atque beatae blanditiis dolorem ea explicabo illo impedit ipsam magnam,
+                necessitatibus neque nulla officia sed soluta tempore ullam vero voluptate.
+            </p>
+        </div>
+        <div>
+            <h3 class="center">Our mission</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam asperiores atque beatae blanditiis dolorem ea explicabo illo impedit ipsam magnam,
+                necessitatibus neque nulla officia sed soluta tempore ullam vero voluptate.
+            </p>
+        </div>
+        <div>
+            <h3 class="center">Our goals</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam asperiores atque beatae blanditiis dolorem ea explicabo illo impedit ipsam magnam,
+                necessitatibus neque nulla officia sed soluta tempore ullam vero voluptate.
+            </p>
+        </div>
+
+    </div>
+</section>
+<section id="gallery">
+    <h1 class="center">Our Gallery</h1>
+    <div class="flexbox">
+        <div>
+            <img src="images/gbv%201.jpeg" alt="loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+        <div>
+            <img src="images/gbv%202.jpeg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+        <div>
+            <img src="images/gbv%203.jpeg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+        <div>
+            <img src="images/gbv%204.jpeg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+
+    </div>
+    <div class="flexbox">
+        <div>
+            <img src="images/gbv%205.jpeg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+        <div>
+            <img src="images/gbv%206.jpeg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+        <div>
+            <img src="images/gbv%207.jpeg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+        <div>
+            <img src="images/gbv%2010.jpg" alt="Loading" height="300" width="300">
+            <p>perferendis quasi rerum similique vel voluptatum</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+    <h3 class="center">Fill this form to get in touch with me asap!!</h3>
+    <div class="container">
+        <form action="#">
+            <div class="row">
+                <div class="col-20">
+                    <label>First name</label>
+                </div>
+                <div class="col-80">
+                    <input type="text" name="fname" placeholder="john">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label>Second name</label>
+                </div>
+                <div class="col-80">
+                    <input type="text" name="sname" placeholder="doe">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label>Email</label>
+                </div>
+                <div class="col-80">
+                    <input type="text" name="email" placeholder="johndoe@example.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label>Subject</label>
+                </div>
+                <div class="col-80">
+                    <textarea name="subject" placeholder="write something here..." style="height: 150px"></textarea>
+                </div>
+            </div>
+            <div>
+                <button class="btnsubmit" type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+        function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+    </script>
+</footer>
+
+</body>
+</html>

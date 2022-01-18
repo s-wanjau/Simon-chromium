@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h3 style="color: darkorange"><marquee>Please fill out this form</marquee></h3>
+<form action="#">
+  <div>
+    <label>Firstname</label><br>
+    <input class="inputstyle" type="text" name="fname" placeholder="john">
+  </div>
+  <div>
+    <label>Secondname</label><br>
+    <input class="inputstyle" type="text" name="sname" placeholder="doe">
+  </div>
+  <div>
+    <label>Email</label><br>
+    <input class="inputstyle" type="mail" name="email" placeholder="johndoe@gmail.com">
+  </div>
+  <div>
+    <label>Phone number</label><br>
+    <input class="inputstyle" type="number" name="pnumber" placeholder="+2547123456">
+
+  </div>
+  <div>
+    <label>Github</label><br>
+    <input class="inputstyle" type="url" name="github" placeholder="www.github.com">
+  </div>
+  <div>
+    <label>DOB</label><br>
+    <input class="inputstyle" type="date" name="dob">
+  </div>
+  <div>
+    <label>Location</label><br>
+    <select class="inputstyle" name="location">
+      <option value="nairobi">Nairobi</option>
+      <option value="kisumu">Kisumu</option>
+      <option value="eldoret">Eldoret</option>
+      <option value="mombasa">Mombasa</option>
+      <option value="nyeri">Nyeri</option>
+
+    </select>
+  </div>
+  <div>
+    <label>Gender</label><br>
+    <input type="radio" name="gender" value="male">
+    <label>female</label>
+    <input type="radio" name="gender" value="female">
+    <label>male</label>
+  </div>
+  <div>
+    <label>Tech stack</label>
+    <input type="checkbox" name="stack" value="mern" >
+    <label>mern</label>
+    <input type="checkbox" name="stack" value="mean">
+    <label>mean</label>
+    <input type="checkbox" name="stack" value="lamp" >
+    <label>lamp</label>
+
+  </div>
+  <div>
+    <label>Any Other Information</label><br>
+    <textarea name="aoi" cols="30" rows="10"></textarea>
+  </div>
+  <div>
+    <input id="thisbutton" type="submit" value="submit">
+  </div>
+</form>
+
+</body>
+</html>
